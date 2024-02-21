@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+.pare{
+    display: flex;
+    justify-content: space-between;
+}
+.child{
+   padding: 10px;
+}
+.chil2{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.child1{
+       padding: 10px;
+       font-family: "Poppins", sans-serif;
+       margin-top: 10px;
+       color: black;
+}
+.Trisun-body{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.bdy{
+ padding:50px;
+ font-family: "Protest Riot";
+ font-size: xx-large;
+ color:#0303a1;
+  /* font-weight: 700px; */
+  /* font-style: normal; */
+  /* width: 200px;
+  height: 200px; */
+}
+@media (max-width:500px)
+{
+    .chil2{
+        display: none;
+    }
+}
+.side-nav{
+    
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    height: 400px;
+   
+}
